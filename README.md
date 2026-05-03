@@ -42,7 +42,7 @@ The output images will be in `bin/targets/ramips/mt7621/`.
 
 ## U‑Boot
 
-You need a custom U‑Boot that supports your SPI NOR flash. Use the [DragonBluep/uboot-mt7621](https://github.com/KharunDima/uboot-mt7621) project and build with these parameters:
+You need a custom U‑Boot that supports your SPI NOR flash. Use the [DragonBluep/uboot-mt7621] (https://github.com/KharunDima/uboot-mt7621) project and build with these parameters:
 
 - Flash type: `NOR`
 - Partition table: `192k(u-boot),64k(u-boot-env),64k(factory),-(firmware)`
