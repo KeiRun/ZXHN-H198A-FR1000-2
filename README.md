@@ -24,7 +24,7 @@
 2. **Скопируйте файлы патчей:**
 
 ```bash
-cp patch/mt7621_zte_e8820s-spi.dts   target/linux/ramips/dts/
+cp patch/mt7621_zte_e8820s-spi.dts   target/linux/ramips/dts/   # DTS для NOR (опционально)
 cp patch/mt7621_zte_e8820s-nand.dts  target/linux/ramips/dts/   # DTS для NAND (опционально)
 cp patch/mt7621.mk                   target/linux/ramips/image/
 cp patch/leds                        target/linux/ramips/mt7621/base-files/etc/board.d/
