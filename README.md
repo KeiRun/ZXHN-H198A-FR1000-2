@@ -298,7 +298,7 @@ iw phy phy1 info | grep -E "^\s+\* [0-9]+\.0 MHz.*dBm" | head -5
 | Baud rate | `115200` |
 | Use Old DDR Timing Parameters | ✓ (поставьте галочку) |
 
-Нажмите **Run workflow**. Готовый `u-boot-mt7621.bin` прошейте в начало NAND с помощью внешнего программатора.
+Нажмите **Run workflow**. Готовый `u-boot-mt7621.bin` прошейте в начало NAND с помощью образа initramfs OpenWrt.
 
 ---
 
