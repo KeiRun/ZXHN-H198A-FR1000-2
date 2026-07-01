@@ -20,6 +20,8 @@
    git clone https://github.com/openwrt/openwrt.git
    cd openwrt
    git checkout v24.10.5   # или любая поддерживаемая версия
+   ./scripts/feeds update -a
+   ./scripts/feeds install -a
    ```
 2. **Скопируйте файлы патчей:**
 
