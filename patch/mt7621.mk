@@ -40,7 +40,7 @@ define Device/zte_e8820s-spi
   DEVICE_DTS := mt7621_zte_e8820s-spi
   DEVICE_VENDOR := ZTE
   DEVICE_MODEL := E8820S-SPI
-  DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 kmod-usb3 luci luci-i18n-base-ru luci-app-ttyd curl jq kmod-nft-tproxy coreutils-base64 bind-dig b4 kmod-nfnetlink kmod-nf-conntrack kmod-nf-conntrack-netlink kmod-ipt-connbytes kmod-ipt-nfqueue kmod-nfnetlink-queue kmod-nft-queue kmod-nf-nat kmod-nft-masq wget-ssl ca-certificates tar
+  DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 kmod-usb3 luci luci-i18n-base-ru luci-app-ttyd curl jq kmod-nft-tproxy coreutils-base64 bind-dig kmod-nfnetlink kmod-nf-conntrack kmod-nf-conntrack-netlink kmod-ipt-nfqueue kmod-nfnetlink-queue kmod-nft-queue kmod-nf-nat wget-ssl ca-certificates
   IMAGE_SIZE := 64896k
   KERNEL_SIZE := 4096k
   IMAGES += factory.bin sysupgrade.bin
